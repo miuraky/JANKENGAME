@@ -30,7 +30,7 @@ def display_final_result(player_win, computer_win):
     print("【最終結果】")
     print(f"あなた: {player_win}勝")
     print(f"コンピュータ: {computer_win}勝")
-    if player_win >= computer_win:
+    if player_win > computer_win:
         print("あなたの総合勝利です！")
     else:
         print("コンピュータの総合勝利です！")
